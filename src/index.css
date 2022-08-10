@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    background-color: rgb(196, 196, 196);
+    color: white;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 1rem;
+}
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 3px solid black;
+    background-color: #556;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .conteudo {
+    background-color: #fff;
+    color: rgba(17, 17, 17, 0.664);
+    padding: 20px;
+    flex: 1;
+}
+
+.card .footer {
+    background-color: rgb(41, 82, 39);
+    padding: 20px;
+}

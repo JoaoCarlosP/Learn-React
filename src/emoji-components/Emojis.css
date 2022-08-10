@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.emoji-container {
+    display: flex;
+    margin: 40px auto;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+input[type='radio']:checked + .emoji-label {
+    background-color: gold;
+}
+
+.emoji-label {
+    display: inline-block;
+    text-align: center;
+
+    width: 150px;
+    color: black;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.emoji-label:hover {
+    background-color: rgba(20, 20, 20, 0.164);
+}
+
+svg {
+    border-radius: 100%;
+    display: block;
+    margin: 10px auto;
+}
