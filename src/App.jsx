@@ -1,26 +1,22 @@
 import React from 'react';
 
-// import Card from './components/layout/Card'
-// import Primeiro from './components/basicos/Primeiro'
-// import ComParmetro from './components/basicos/ComParametro'
-// import ComFilhos from './components/basicos/ComFilhos'
-// import Repeticao from './components/basicos/Repeticao'
-// import Condicional from './components/basicos/Condicional';
-// import Pai from './components/comunicacao/direta/Pai'
-// import Super from './components/comunicacao/indireta/Super'
-
-import './emoji-components/BuildEmojis'
-import BuildEmojis from './emoji-components/BuildEmojis';
+import Card from './components/layout/Card'
+import Primeiro from './components/basicos/Primeiro'
+import ComParmetro from './components/basicos/ComParametro'
+import ComFilhos from './components/basicos/ComFilhos'
+import Repeticao from './components/basicos/Repeticao'
+import Condicional from './components/basicos/Condicional'
+import Pai from './components/comunicacao/direta/Pai'
+import Super from './components/comunicacao/indireta/Super'
+import Contador from './components/treino/Contador'
 
 import './index.css';
 
-const App = (props) => {
+function App(props) {
     return (
         <div className='app'>
-            <BuildEmojis />
-            
-            {/* <Card titulo='#01 - Primeiro Componente' color='#FA6900'>
-                <Primeiro/>
+            <Card titulo='#01 - Primeiro Componente' color='#FA6900'>
+                <Primeiro />
             </Card>
 
             <Card titulo='#02 - Componente com parâmetro' color='#542733'>
@@ -48,12 +44,16 @@ const App = (props) => {
             </Card>
 
             <Card titulo='#06 - Comunicação Direta' color='#BA5F32'>
-                <Pai sobrenome="Pereira"/>
+                <Pai sobrenome="Pereira" />
             </Card>
 
             <Card titulo='#06 - Comunicação Indireta' color='#20457C   '>
-                <Super/>
-            </Card> */}
+                <Super />
+            </Card>
+
+            <Card titulo='#07 - Treino' color='#20457C   '>
+                <Contador />
+            </Card>
 
         </div>
     );
