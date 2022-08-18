@@ -5,7 +5,7 @@ const Sub = (props) => {
         // Quando clicar, irá passar para a função, localizada no componente pai, um valor gerado.
         <div>
             <button onClick={() => {
-                props.clique(Math.random())
+                props.clique(Math.random(), 'Novo valor gerado')
             }}>
                 Alterar
             </button>
