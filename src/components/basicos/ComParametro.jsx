@@ -11,4 +11,19 @@ const ComParametro = (props) => {
     );
 }
 
+// class ComParametro extends React.Component {
+//     constructor(props) {
+//         super(props)
+//         this.titulo = 'Outro valor'
+//     }
+//     render() {
+//         return (
+//             <>
+//                 <h3>{this.props.titulo}</h3>
+//                 <p>{this.props.subtitulo}</p>
+//             </>
+//         )
+//     }
+// }
+
 export default ComParametro;
